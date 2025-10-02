@@ -1,1 +1,54 @@
-# (pega aquí exactamente el contenido del .gitignore anterior)
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Environment
+.env
+.env.*.local
+.env.local
+.env.production
+.env.test
+
+# Build / output
+dist/
+build/
+coverage/
+.out/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# pm2
+pm2.pid
+pm2.log
+pids/
+
+# Misc
+*.bak
+*.tmp
+.sass-cache/
+.history
+
+# Optional: if you use Docker
+docker-compose.override.yml
+.env.docker
